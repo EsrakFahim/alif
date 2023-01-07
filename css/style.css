@@ -1,0 +1,181 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.header{
+    background-image: url(/images/banner1.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.header_text{
+    padding-left: 800px;
+    padding-right: 150px;
+    padding-top: 200px;
+    padding-bottom: 300px;
+}
+.header_title{
+    font-size: 60px;
+    font-weight:bolder;
+    text-align:right;
+}
+.header_info{
+    text-align: right;
+    font-weight: 200;
+    color: #4240407e;
+}
+a{
+    text-decoration: none;
+}
+.primary_btn{
+    text-align: right;
+    padding-top: 20px;
+}
+.contact_btn{
+    background-image: linear-gradient(45deg,#f15b22,#b45935);
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #f0f8ff;
+}
+.failures{
+    display: flex;
+}
+.fail_width{
+    width: 40%;
+    text-align: center;
+    
+}
+.fail_img{
+    padding-left: 10%;
+}
+.fail_img img{
+    height: 80%;
+}
+.fail_title{
+    font-size: 30px;
+    font-weight:bolder;
+}
+.fail_description{
+    color: #424040;
+    font-size: 15px;
+}
+.fail_list{
+    text-align: left;
+    padding-top: 150px;
+    padding-bottom: 8%;
+    padding-right: 300px;
+}
+li{
+    list-style: none;
+    text-align: left;
+    color: #424040;
+    font-size: 15px;
+}
+span{
+    color: #2adb91;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.plans{
+    margin: 70px 120px;
+    text-align: center;
+}
+.plans_title h2{
+    font-weight: 900;
+    font-size: 40px;
+}
+.plans_container{
+    display: flex;
+    justify-content: space-around;
+}
+.plans_item_title{
+    font-weight: 900;
+    font-size: 25px;
+}
+.plans_item_details{
+    font-size: 18px;
+}
+.banner{
+    width: 70%;
+    padding-left: 15%;
+    padding-bottom: 80px;
+}
+.banner_ing{
+    background-image:url(/images/gradient2.png) , url(/images/watch.png) ;
+    background-repeat: no-repeat;
+    background-position: left top, bottom right;
+    border-radius: 10px;
+}
+.banner_text{
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    color: #f0f8ff;
+    font-size: 20px;
+}
+.btn{
+    padding-top: 20px;
+}
+.call_btn{
+    background-image: linear-gradient(45deg,#e9e2e1,#837878);
+    padding: 15px 25px;
+    border-radius: 5px;
+    color:#e35a23;
+    font-weight: 600;
+}
+.footer{
+    display: flex;
+    background-color: #151414;
+    color: #e9e2e1;
+}
+.footer_width{
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.footer_spc{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+}
+.future h2{
+    font-size: 30px;
+}
+.future p{
+    font-size: 14px;
+    font-weight: 100;
+}
+.social_midia img{
+    padding-right: 10px;
+}
+.subscribe h2{
+    font-size: 20px;
+}
+.enter_mail{
+    padding: 25px 30px;
+}
+#enter_mail{
+    width: 250px;
+    height: 30px;
+    background-color: #151414;
+    border: 1px solid #f0f8ff;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+::placeholder {
+    color: #e9e2e1;
+    opacity: .8;
+    font-size: 16px;
+}
+.btn_conteinar{
+    padding-top:15px ;
+}
+.subscribe_btn{
+    background-color: #e9e2e1;
+    color: #e35a23;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
