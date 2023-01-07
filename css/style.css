@@ -4,7 +4,7 @@ body{
     margin: 0;
 }
 .header{
-    background-image: url(/images/banner1.png);
+    background-image: url(../images/banner1.png);
     background-repeat: no-repeat;
     background-position: left top;
 }
@@ -102,7 +102,7 @@ span{
     padding-bottom: 80px;
 }
 .banner_ing{
-    background-image:url(/images/gradient2.png) , url(/images/watch.png) ;
+    background-image:url(../images/gradient2.png) , url(../images/watch.png) ;
     background-repeat: no-repeat;
     background-position: left top, bottom right;
     border-radius: 10px;
